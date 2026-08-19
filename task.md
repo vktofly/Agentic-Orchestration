@@ -1,0 +1,13 @@
+- [ ] **Phase 1: Setup**
+  - [ ] Initialize `uv` project
+  - [ ] Install dependencies (`dspy-ai`, `langgraph`, `chromadb`, `google-generativeai`)
+  - [ ] Request Gemini API key via environment variable
+- [x] **Phase 2: Database & Mock Data**
+  - [x] `src/vector_store.py` (ChromaDB ingestion of test facts)
+- [x] **Phase 3: DSPy Compilation**
+  - [x] `src/dspy_modules.py` (Define QA signature and compile via BootstrapFewShot)
+- [x] **Phase 4: LangGraph Orchestration**
+  - [x] `src/graph.py` (State machine: Retrieve -> Generate -> Grade)
+- [x] **Phase 5: Execution**
+  - [x] `main.py` (Execute graph with test queries)
+  - [x] `README.md` and commit to Git
