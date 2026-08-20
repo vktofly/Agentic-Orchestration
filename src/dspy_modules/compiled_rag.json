@@ -1,0 +1,44 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "context": [
+        "DSPy is a framework for algorithmically optimizing LM prompts and weights.",
+        "LangGraph is a library for building stateful, multi-actor applications with LLMs."
+      ],
+      "question": "What is DSPy?",
+      "answer": "A framework for algorithmically optimizing LM prompts and weights."
+    },
+    {
+      "question": "What is the purpose of LangGraph?",
+      "answer": "Building stateful, multi-actor applications with LLMs."
+    }
+  ],
+  "signature": {
+    "instructions": "Answer questions with short, precise, factual answers based on the context.",
+    "fields": [
+      {
+        "prefix": "Context:",
+        "description": "Factual context retrieved from a database"
+      },
+      {
+        "prefix": "Question:",
+        "description": "The user's question"
+      },
+      {
+        "prefix": "Answer:",
+        "description": "A precise, accurate answer"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}
