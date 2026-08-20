@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env.local
+.env
+checkpoints.sqlite*
+chroma_db/
+.claude/
+.agents/
+skills-lock.json
+findings.md
+progress.md
+task.md
+task_plan.md
